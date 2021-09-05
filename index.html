@@ -35,7 +35,7 @@
 
   <!-- Animation on scroll -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <title>W-R Lin Portfolio</title>
+  <title>WR Lin Portfolio</title>
 
 
   <!-- Personal Styling -->
@@ -47,11 +47,20 @@
   <!---------------------------------- HEADER ---------------------------------->
   <header class="header" id="header">
     <nav class="nav container navbar-expand-lg">
-      <a href="#" class="nav__logo navbar-brand ml-3">W-R Lin</a>
+      <a href="#" class="nav__logo navbar-brand ml-3">Wei</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default"
         aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <a href="https://www.linkedin.com/in/wei-ru/" target="_blank" class="home__social-icon"
+        id="myLinkedIn">
+        <img src="img/LinkedIn.png" />
+      </a>
+
+      <a href="https://github.com/WeiRu-Bob" target="_blank" class="home__social-icon" id="myGithub">
+        <img src="img/Github.png" />
+      </a>
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list grid">
@@ -62,10 +71,11 @@
           </li>
 
           <li class="nav__item">
-            <a href="#about" class="nav__link">
-              <i class="uil uil-user nav__icon"></i>About
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-graduation-cap nav__icon"></i>Experience
             </a>
           </li>
+
 
           <li class="nav__item">
             <a href="#skills" class="nav__link">
@@ -73,11 +83,6 @@
             </a>
           </li>
 
-          <li class="nav__item">
-            <a href="#qualification" class="nav__link">
-              <i class="uil uil-graduation-cap nav__icon"></i>Qualification
-            </a>
-          </li>
 
           <li class="nav__item">
             <a href="#portfolio" class="nav__link">
@@ -85,11 +90,7 @@
             </a>
           </li>
 
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">
-              <i class="uil uil-message nav__icon"></i>Contact Me
-            </a>
-          </li>
+
         </ul>
         <i class="uil uil-times nav__close" id="nav-close"></i>
 
@@ -116,28 +117,6 @@
       <div class="home__container container">
         <div class="home__content grid">
           <div class="home__social">
-            <a href="https://www.linkedin.com/in/tiffanyychien" target="_blank" class="home__social-icon"
-              id="myLinkedIn">
-              <img src="img/icon/linkedin.png" />
-            </a>
-            <a href="https://www.instagram.com/veryclefairy/" target="_blank" class="home__social-icon"
-              id="myInstagram">
-              <img src="img/icon/instagram.png" />
-            </a>
-
-            <a href="https://github.com/Tiffany-Chien" target="_blank" class="home__social-icon" id="myGithub">
-              <img src="img/icon/github.png" />
-            </a>
-
-            <a href="https://www.facebook.com/TiffanyyyyChien/" target="_blank" class="home__social-icon"
-              id="myFacebook">
-              <img src="img/icon/facebook.png" />
-            </a>
-
-            <a href="https://www.twitch.tv/veryclefairy" target="_blank" class="home__social-icon" id="myTwitch">
-              <img src="img/icon/twitch.png" />
-            </a>
-
             <!-- Add other things like twitter/youtube/stackoverflow? -->
           </div>
         </div>
@@ -145,21 +124,23 @@
 
         <div class="home__data">
           <!-- <small class="home_welcome s-color">Welcome to My Portfolio Website</small> -->
-          <h1 class="home__title">Hey! I'm Wei</h1>
+          <h1 class="home__title">Hey! I am Wei</h1>
           <div id="typewriter"></div>
           <h3 class="home__subtitle" id="home-bio">I am an aspiring fullstack engineer, a programmer, a dietitian, a law
-            school student and also a Twitch streamer. </h3>
+            school student. </h3>
 
+          <!--
           <a href="#contact" class="button button--flex" id="contact_button">
-            <!-- TODO: Maybe change this icon -->
+             TODO: Maybe change this icon 
             Contact Me <i class="uil uil-message button__icon"></i>
           </a>
+          -->
         </div>
 
       </div>
       <!-- TODO: Think if this is necessary -->
       <div class="home__scroll">
-        <a href="#about" class="home__scroll-button button--flex">
+        <a href="#qualification" class="home__scroll-butto n button--flex">
           <!-- TODO: Maybe change the mouse icon?-->
           <i class="uil uil-mouse-alt home__scroll-mouse"></i>
           <!-- <span class="home__scroll-name">Scroll Down</span>
@@ -170,6 +151,7 @@
 
 
     <!------------------------- ABOUT ME ------------------------->
+    <!--
     <section class="about section" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
       <h2 class="section__title" id="about" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">About Me
       </h2>
@@ -190,7 +172,7 @@
 
         <div class="about__info">
           <div>
-            <!-- put school sophomore? -->
+             put school sophomore? 
             <span class="about__info-title">1</span>
             <span class="about__info-name"> Year <br> Experience</span>
           </div>
@@ -201,12 +183,12 @@
           </div>
 
           <div>
-            <!-- Are you sure? -->
+             Are you sure? 
             <span class="about__info-title">5+</span>
             <span class="about__info-name"> Completed <br> Projects</span>
           </div>
 
-          <!-- Add work experience year -->
+          < Add work experience year 
 
         </div>
 
@@ -214,11 +196,11 @@
           <a href="assets/#" download="Tiffany_Chien_Resume" class="button button--flex" data-toggle="modal"
             data-target="#myModal">
             My Resume <i class="uil uil-file-search-alt button__icon"></i> </a>
-          <!-- Modal -->
+          Modal 
           <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
 
-              <!-- Modal content-->
+               Modal content
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -231,18 +213,361 @@
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
               </div>
-              <!-- end -->
+               end 
 
             </div>
           </div>
 
 
     </section>
+    -->
+        <!------------------------- EDUCATION(QUALIFICATION) ------------------------->
+        <section class="qualification section" id="qualification">
+          <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true"> Experiences
+          </h2>
+    
+          <div class="qualification__container container">
+    
+            <div class="row mt-lg-0">
+              <!-- Experience -->
+              <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+                <div class="qualification__button button--flex">
+                  <i class="uil uil-briefcase-alt qualification__icon"></i> Professional
+                </div>
+    
+                <div id="expreience_timeline">
+                  <div class="container py-2">
+                    <!-- Timeline item 1 TA -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+    
+                        <h5>
+                          <span class="badge qualification__calendar">
+                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                            2021
+                          </span>
+                        </h5>
+    
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2">
+                        <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                            <div class="task">
+                              <div class="abstract">
+                                <h3 class="qualification__title"> Software Engineer, Intern </h3>
+                                <p class="qualification__subtitle"> Caravel Associates </p>
+                              </div>
+                              <div class="details">
+                                <p class="qualification__subtitle"> I teach introductory computer science material to weekly
+                                  recitation section of 20 students and offer mental support
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <!-- Timeline item 2 -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+    
+                        <h5>
+                          <span class="badge qualification__calendar">
+                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                            2020
+                          </span>
+                        </h5>
+    
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2">
+                        <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                            <div class="task">
+                              <div class="abstract">
+                                <h3 class="qualification__title"> Research Assistant </h3>
+                                <p class="qualification__subtitle"> Academia Sinica </p>
+                              </div>
+                              <div class="details">
+                                <p class="qualification__subtitle"> I am a partner streamer at Twitch with over 90k
+                                  followers and become a role model as a women in Tech. </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <!-- Timeline item 3 RA -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+    
+                        <h5>
+                          <span class="badge qualification__calendar">
+                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                            2019
+                          </span>
+                        </h5>
+    
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2">
+                        <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                            <div class="task">
+                              <div class="abstract">
+                                <h3 class="qualification__title"> Software Engineer, Intern </h3>
+                                <p class="qualification__subtitle"> CAVEDU Education </p>
+                              </div>
+                              <div class="details">
+                                <p class="qualification__subtitle"> I collaborated with The Institute for Information
+                                  Industry in Taiwan to analyze 755 ICO companies’ risk and copublished an article on the
+                                  journals </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                        
+
+                    <!-- Timeline item 4 RA -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+    
+                        <h5>
+                          <span class="badge qualification__calendar">
+                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                            2017
+                          </span>
+                        </h5>
+    
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2">
+                        <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                            <div class="task">
+                              <div class="abstract">
+                                <h3 class="qualification__title"> Undergraduate Research Assistant </h3>
+                                <p class="qualification__subtitle"> National Cheng Kung University </p>
+                              </div>
+                              <div class="details">
+                                <p class="qualification__subtitle"> I collaborated with The Institute for Information
+                                  Industry in Taiwan to analyze 755 ICO companies’ risk and copublished an article on the
+                                  journals </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <!-- Timeline item end -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__start">
+                              <i class="uil uil-rocket qualification__start-icon"></i>
+                            </span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Education -->
+              <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+                <div class="qualification__button button--flex">
+                  <i class="uil uil-graduation-cap qualification__icon"></i> Education
+                </div>
+    
+                <div id="education_timeline">
+                  <div class="container py-2">
+    
+                    <!-- Timeline item 1 -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+    
+                        <h5>
+                          <span class="badge qualification__calendar">
+                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                            2021
+                          </span>
+                        </h5>
+    
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2">
+                        <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                            <div class="task">
+                              <div class="abstract">
+                                <h3 class="qualification__title"> Master of Electrical and Computer Engineering </h3>
+                                <p class="qualification__subtitle"> University of California, San Diego</p>
+                              </div>
+                              <div class="details">
+                                <p class="qualification__subtitle"> I have taken software development, discrete math, data
+                                  structures, algorithm, database courses so far.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    
+    
+                    <!-- Timeline item 3 TMU -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+    
+                        <h5>
+                          <span class="badge qualification__calendar">
+                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                            2017
+                          </span>
+                        </h5>
+    
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2">
+                        <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                            <div class="task">
+                              <div class="abstract">
+                                <h3 class="qualification__title"> Bachelor of Electrical Engineering </h3>
+                                <p class="qualification__subtitle"> National Cheng Kung University </p>
+                              </div>
+                              <div class="details">
+                                <p class="qualification__subtitle"> I am also a certified dietitian! </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+    
+    
+                    <!-- Timeline item end -->
+                    <div class="row">
+                      <!-- Timeline design -->
+                      <div class="col-auto text-center flex-column d-sm-flex">
+                        <div class="row h-50 qualification__journey">
+                          <div class="col">
+                            <span class="qualification__start">
+                              <i class="uil uil-rocket qualification__start-icon"></i>
+                            </span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                        </div>
+                      </div>
+                      <!-- Timeline content Events -->
+                      <div class="col py-2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              
+            </div>
+          </div>
+        </section>
+
     <!------------------------- SKILLS ------------------------->
     <section class="skills section" id="skills">
       <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true"> Skills </h2>
-      <span class="section__subtitle">I program 80% in Java. <br> I am also a self-taught JavaScript developer!
-        <br> Now I'm learning C/C++ for low level programming.</span>
+      <span class="section__subtitle">I program in Java. <br> I am also a self-taught JavaScript developer!
+        <br> Now</span>
 
       <div class="skills__container container grid">
         <!-- Each skill container begin -->
@@ -395,342 +720,7 @@
       </div>
     </section>
 
-    <!------------------------- EDUCATION(QUALIFICATION) ------------------------->
-    <section class="qualification section" id="qualification">
-      <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true"> Qualification
-      </h2>
-      <span class="section__subtitle"> My Journey as someone trying to pivot into Tech. </span>
 
-      <div class="qualification__container container">
-
-        <div class="row mt-lg-0">
-          <!-- Education -->
-          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
-            <div class="qualification__button button--flex">
-              <i class="uil uil-graduation-cap qualification__icon"></i> Education
-            </div>
-
-            <div id="education_timeline">
-              <div class="container py-2">
-
-                <!-- Timeline item 1 -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-
-                    <h5>
-                      <span class="badge qualification__calendar">
-                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                        2021
-                      </span>
-                    </h5>
-
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2">
-                    <div class="card education-card transparent_card mirror-face shadow2">
-                      <div class="card-body">
-                        <div class="task">
-                          <div class="abstract">
-                            <h3 class="qualification__title"> Master of Computer & Information Technology </h3>
-                            <p class="qualification__subtitle"> University of Pennyslvania </p>
-                          </div>
-                          <div class="details">
-                            <p class="qualification__subtitle"> I have taken software development, discrete math, data
-                              structures, algorithm, database courses so far.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Timeline item 2 Soochow University -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-
-                    <h5>
-                      <span class="badge qualification__calendar">
-                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                        2016
-                      </span>
-                    </h5>
-
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2">
-                    <div class="card education-card transparent_card mirror-face shadow2">
-                      <div class="card-body">
-                        <div class="task">
-                          <div class="abstract">
-                            <h3 class="qualification__title"> Master of Laws </h3>
-                            <p class="qualification__subtitle"> Soochow University </p>
-                          </div>
-                          <div class="details">
-                            <p class="qualification__subtitle"> I have published <b>The Role of Reg-Tech and Sup-Tech in
-                                Financial Supervision</b> as my master thesis and was referenced 3 times</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Timeline item 3 TMU -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-
-                    <h5>
-                      <span class="badge qualification__calendar">
-                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                        2012
-                      </span>
-                    </h5>
-
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2">
-                    <div class="card education-card transparent_card mirror-face shadow2">
-                      <div class="card-body">
-                        <div class="task">
-                          <div class="abstract">
-                            <h3 class="qualification__title"> Bachelor of Nutrition & Health Sciences </h3>
-                            <p class="qualification__subtitle">Taipei Medical University</p>
-                          </div>
-                          <div class="details">
-                            <p class="qualification__subtitle"> I am also a certified dietitian! </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-
-                <!-- Timeline item end -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__start">
-                          <i class="uil uil-rocket qualification__start-icon"></i>
-                        </span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Experience -->
-          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
-            <div class="qualification__button button--flex">
-              <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
-            </div>
-
-            <div id="expreience_timeline">
-              <div class="container py-2">
-                <!-- Timeline item 1 TA -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-
-                    <h5>
-                      <span class="badge qualification__calendar">
-                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                        2021
-                      </span>
-                    </h5>
-
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2">
-                    <div class="card education-card transparent_card mirror-face shadow2">
-                      <div class="card-body">
-                        <div class="task">
-                          <div class="abstract">
-                            <h3 class="qualification__title"> Teaching Assistant </h3>
-                            <p class="qualification__subtitle"> University of Pennyslvania </p>
-                          </div>
-                          <div class="details">
-                            <p class="qualification__subtitle"> I teach introductory computer science material to weekly
-                              recitation section of 20 students and offer mental support
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Timeline item 2 -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-
-                    <h5>
-                      <span class="badge qualification__calendar">
-                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                        2020
-                      </span>
-                    </h5>
-
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2">
-                    <div class="card education-card transparent_card mirror-face shadow2">
-                      <div class="card-body">
-                        <div class="task">
-                          <div class="abstract">
-                            <h3 class="qualification__title"> Twitch Partner </h3>
-                            <p class="qualification__subtitle"> Twitch </p>
-                          </div>
-                          <div class="details">
-                            <p class="qualification__subtitle"> I am a partner streamer at Twitch with over 90k
-                              followers and become a role model as a women in Tech. </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Timeline item 3 RA -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-
-                    <h5>
-                      <span class="badge qualification__calendar">
-                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                        2019
-                      </span>
-                    </h5>
-
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__line"></span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2">
-                    <div class="card education-card transparent_card mirror-face shadow2">
-                      <div class="card-body">
-                        <div class="task">
-                          <div class="abstract">
-                            <h3 class="qualification__title"> Research Assistant </h3>
-                            <p class="qualification__subtitle"> National Chung Cheng University </p>
-                          </div>
-                          <div class="details">
-                            <p class="qualification__subtitle"> I collaborated with The Institute for Information
-                              Industry in Taiwan to analyze 755 ICO companies’ risk and copublished an article on the
-                              journals </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <!-- Timeline item end -->
-                <div class="row">
-                  <!-- Timeline design -->
-                  <div class="col-auto text-center flex-column d-sm-flex">
-                    <div class="row h-50 qualification__journey">
-                      <div class="col">
-                        <span class="qualification__start">
-                          <i class="uil uil-rocket qualification__start-icon"></i>
-                        </span>
-                      </div>
-                      <div class="col">&nbsp;</div>
-                    </div>
-                  </div>
-                  <!-- Timeline content Events -->
-                  <div class="col py-2"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!------------------------- PROJECTS ------------------------->
     <section class="portfolio section" id="portfolio">
       <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">Portfolio</h2>
@@ -834,11 +824,13 @@
       </div>
 
     </section>
+    
     <!------------------------- CONTACT ------------------------->
+    <!--
     <section class="contact section" id="contact">
       <h2 class="section__title"> Contact Me </h2>
       <span class="section__subtitle"> Keep in Touch </span>
-      <!-- Contact Informaiton -->
+      Contact Informaiton 
       <div class="contact_mail">
 
         <h2 class="contact__title"> Feel free to contact me for any suggestions and advice.</h2>
@@ -872,40 +864,15 @@
 
 
     </section>
+    -->
   </main>
+
   <!---------------------------------- FOOTER ---------------------------------->
   <footer class="footer">
     <div class="footer__bg">
       <div class="footer__container container grid">
-        <div>
-          <h1 class="footer__title"> Tiffany Chien </h1>
-          <span class="footer__subtitle"> Aspiring Software Engineer </span>
-
-
-        </div>
-
-        <div class="footer__socials_container">
-          <ul class="footer__socials">
-            <li>
-              <a href="https://www.facebook.com/TiffanyyyyChien/" class="footer__social">
-                <i class="fab fa-facebook-f icon"></i> </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/veryclefairy/" class="footer__social"><i
-                  class="fab fa-instagram icon"></i></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/tiffanyychien/" class="footer__social"><i
-                  class="fab fa-linkedin-in icon"></i></a>
-            </li>
-            <li>
-              <a href="https://www.twitch.tv/veryclefairy" class="footer__social"><i class="fab fa-twitch icon"></i></a>
-            </li>
-            <li>
-              <a href="https://github.com/Tiffany-Chien" class="footer__social"><i class="fab fa-github icon"></i></a>
-            </li>
-          </ul>
-        </div>
+          <h1 class="footer__title"> WR Lin </h1>
+          <span class="footer__subtitle"> Software Engineer </span>
       </div>
 
       <p class="footer__copy">&#169; All rights reserved</p>
@@ -919,13 +886,6 @@
   <a href="#" class="scrollup" id="scroll-up">
     <i class="uil uil-arrow-up scrollup__icon"></i>
   </a>
-
-
-
-
-
-
-
 
   <!-- Core -->
   <script src="js/core/jquery.min.js"></script>

@@ -10,8 +10,8 @@
   --hue-color: 340;
 
   /* hsl(var(--hue-color), 69%, 58%)*/
-  --first-color: #f5b1b9;
-  --first-color--second: #991856;
+  --first-color: #484b57;
+  --first-color--second: #ffffff;
   --first-color-alt: #ff6f61;
   --first-color-lighter: #f3b7c1;
 
@@ -268,7 +268,7 @@ img {
 }
 
 .nav__logo:hover {
-  color: palevioletred;
+  color: rgb(41, 180, 235);
 }
 
 .nav__toggle {
@@ -466,10 +466,11 @@ img {
   margin-top: 5rem;
 }
 
+/*
 #contact_button {
   margin-top: 5rem;
 }
-
+*/
 /* SCROLL DOWN*/
 @keyframes scrollDown {
   0% {
@@ -1045,13 +1046,13 @@ img {
 }
 
 /* =================================================== CONTACT ======================================================== */
-
+/*
 .contact_mail {
-  /* margin-left: var(--mb-3);
-  margin-right: var(--mb-1-5); */
+  margin-left: var(--mb-3);
+  margin-right: var(--mb-1-5); 
   width: 100%;
   justify-content: center;
-  /* position: absolute; */
+  position: absolute; 
   z-index: 1;
 }
 
@@ -1148,6 +1149,7 @@ form textarea {
 .form_button {
   border: none;
 }
+*/
 
 /* =================================================== FOOTER ======================================================== */
 
@@ -1263,6 +1265,7 @@ ul li:nth-child(5) a:before {
   color: var(--first-color--second);
 }
 
+/*
 .footer__socials_container {
   display: flex;
   justify-content: center;
@@ -1270,6 +1273,7 @@ ul li:nth-child(5) a:before {
   margin-right: var(--mb-1-5);
   column-gap: var(--mb-1);
 }
+*/
 /* .footer__social {
   margin: var(--mb-0-5);
 } */
@@ -1373,11 +1377,11 @@ ul li:nth-child(5) a:before {
   .qualification__data {
     gap: 0.5rem;
   }
-
+/*
   .contact_mail {
     margin-left: var(--mb-1-5);
   }
-
+*/
   ::-webkit-scrollbar {
     width: 0.4rem;
     border-radius: 0.4rem;
@@ -1404,7 +1408,7 @@ ul li:nth-child(5) a:before {
   .about__container,
   .skill__container,
   .portfolio__container,
-  .contact__container,
+  /*.contact__container,*/
   .footer__container {
     grid-template-columns: repeat(1, 1fr);
     padding-left: var(--mb-1);
@@ -1420,9 +1424,11 @@ ul li:nth-child(5) a:before {
   .portfolio {
     padding-bottom: var(--mb-0-25);
   }
+  /*
   .contact {
     padding-top: 0;
   }
+  */
   .qualification__start-icon {
     position: absolute;
     transform: translateY(60%);
@@ -1574,6 +1580,7 @@ ul li:nth-child(5) a:before {
     transform: translateX(-7.5rem);
   }
 
+  /*
   .contact__form {
     width: 460px;
   }
@@ -1587,7 +1594,7 @@ ul li:nth-child(5) a:before {
     padding-top: var(--mb-3);
     row-gap: 4rem;
   }
-
+*/
   .form {
     min-width: 700px;
   }
