@@ -30,13 +30,19 @@
   --grey-color: grey;
 
   /* ====== FONT AND TYPOGRAPHY ====== */
-  --gullible-font: "Maven Pro", sans-serif;
-  --pacifico-font: "Pacifico", cursive;
+  --apple-font:"Apple Chancery", cursive;
   --body-font: "Poppins", sans-serif;
+  --bigfat-font: "Russo One", sans-serif;
+  --gullible-font: "Maven Pro", sans-serif;
+  --jazz-font: "Jazz LET", fantasy;
+  --luminari-font: "Luminari", fantasy;
+  --pacifico-font: "Pacifico", cursive;
   --roboto-font: "Roboto", sans-serif;
   --robotomono-font: "Roboto Mono", monospace;
   --sacramento-font: "Sacramento", cursive;
-  --bigfat-font: "Russo One", sans-serif;
+  --snell-font: "Snell Roundhand", cursive;
+ 
+  
 
   /* 1rem = 16 px */
   --big-font-size: 2rem;
@@ -87,7 +93,7 @@ body.dark-theme {
   --first-color: #3e3685;
   --first-color--second: hsl(var(--hue-color), 96%, 91%);
   --first-color-alt: #6463c0; 
-  --first-color-lighter: #908aa0; /* Not changed */
+  --first-color-lighter: #544272; 
   --card-color: hsl(var(--hue-color), 50%, 67%);
   --transparent-card-color: hsl(var(--hue-color), 30%, 14%);
 
@@ -101,6 +107,7 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 30%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 10%, 50%);
   --scroll-thumb-color: hsl(var(--hue-color), 15%, 32%);
+  --black-color: black;
 }
 
 /* =============== NAV BUTTONS DARK/LIGHT THEME ============== */
@@ -279,9 +286,9 @@ img {
 }
 
 .navbar-brand {
-  font-family: var(--pacifico-font);
+  font-family: var(--snell-font);
   text-transform: inherit;
-  font-size: var(--mb-2);
+  font-size: var(--mb-2-5);
 }
 
 @media screen and (max-width: 768px) {
@@ -311,6 +318,7 @@ img {
   font-size: var(--small-font-size);
   color: var(--first-color--second);
   font-weight: var(--font-medium);
+  font-family: var(--jazz-font);
 }
 
 .nav__link:hover {
@@ -1549,11 +1557,13 @@ ul li:nth-child(5) a:before {
 
   .footer__copy {
     margin-top: 4rem;
+    color:  var(--black-color);
   }
 
   .footer__copy a {
     text-align: center;
     justify-content: center;
+    
   }
 
   /* .home__data{
